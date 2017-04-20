@@ -1,0 +1,80 @@
+baseURL = "https://www.phonegapbuildfundamentals.com/"
+languageCode = "en-us"
+title = "PhoneGap Build Fundamentals"
+theme = "hugo-creative-theme"
+googleAnalytics = "UA-69339142-1"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Matt Netkow"
+	description = "Build Mobile Apps using web development skills - HTML5, CSS3, JavaScript"
+	keywords = "phonegap, phonegap build, cordova, ionic, react native, javascript, mobile, ios, android"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+	# Navigation
+	[params.navigation]
+		brand = "PhoneGap Build Fundamentals"
+
+		[params.navigation.links]
+			services  = "About"
+			contact   = "Contact"
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Take Your Web Dev Skills to the next level!"
+		subtitle   = "So you've learned HTML5, CSS3, and JavaScript. <strong>Now what?</strong>"
+		buttonText = "Learn More"
+
+	# Service section
+	[params.services]
+		headline = "Comprehensive Video Course Covering:"
+
+        [[params.services.list]]
+            icon = "fa-code"
+            title = "One Codebase, Multiple Platforms"
+            description = "Create apps for iOS, Android, Windows Phone, and more!"
+
+        [[params.services.list]]
+			icon = "fa-camera"
+			title = "Craft Compelling Experiences"
+			description = "Leverage the device camera, bluetooth, and more - just like native mobile apps."
+
+		[[params.services.list]]
+            icon = "fa-check-square-o"
+            title = "Simplified App Store Submission"
+            description = "Creating keys & certificates, building apps, & submitting for approval."
+
+        [[params.services.list]]
+            icon = "fa-bug"
+            title = "Troubleshooting Tips and Tricks"
+            description = "Save Time with Strategies for solving common PhoneGap Build issues & JavaScript debugging."
+
+    # Aside section
+	[params.aside]
+		headline = "Want to learn more about PhoneGap apps?"
+
+		[params.aside.button]
+			text = "Check out Matt's Blog"
+			link = "https://www.netkow.com/categories/phonegap/"
+
+	# Contact section
+	[params.contact]
+		headline = "About Matt Netkow"
+		description = "Matt Netkow has been creating mobile apps using web tech for over 5 years. PhoneGap Build Fundamentals is his first Pluralsight course. He blogs about all things PhoneGap/Cordova at [netkow.com](https://www.netkow.com/categories/phonegap/) and tweets as [@dotNetkow](https://www.twitter.com/dotNetkow)."

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Matt Netkow">
+<meta name="description" content="Build Mobile Apps using web development skills - HTML5, CSS3, JavaScript">
+<meta name="keywords" content="phonegap, phonegap build, cordova, ionic, react native, javascript, mobile, ios, android">
+<meta name="generator" content="Hugo 0.20" />
+<title>PhoneGap Build Fundamentals</title>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="https://www.phonegapbuildfundamentals.com/favicon.ico">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="https://www.phonegapbuildfundamentals.com/css/bootstrap.min.css" type="text/css">
+<!-- Custom Fonts -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://www.phonegapbuildfundamentals.com/font-awesome/css/font-awesome.min.css" type="text/css">
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="https://www.phonegapbuildfundamentals.com/css/animate.min.css" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="https://www.phonegapbuildfundamentals.com/css/creative.css" type="text/css">
+<link rel="stylesheet" href="https://www.phonegapbuildfundamentals.com/css/modals.css" type="text/css">
+
+
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+        #mc_embed_signup { 
+         clear:left; font:14px Helvetica,Arial,sans-serif; 
+        width:100%; margin-bottom: 25px; padding: 15px;
+        }
+
+        #mc_embed_signup label { 
+        font-size: 32px;
+        color: #ff9900;
+        }
+
+        #mc_embed_signup .button { 
+        background-color: #ff9900;
+        color: black;
+        font: 18px Helvetica,Arial,sans-serif;
+        font-weight: bold;
+        }
+
+        #mc-detail {
+        font-size: 22px;
+        color: white  ; 
+        }
+</style>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    </head>
+    <body id="page-top">
+        
+            <!-- NAVIGATION -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+                <a class="navbar-brand page-scroll" href="#page-top">PhoneGap Build Fundamentals</a>
+            
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                    <li>
+                        <a class="page-scroll" href="#services">About</a>
+                    </li>
+                
+                
+                
+                
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+        
+
+        
+            <!-- HEADER -->
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            
+                <h1>Take Your Web Dev Skills to the next level!</h1>
+            
+            
+                <hr>
+            
+            
+                <p>So you&rsquo;ve learned HTML5, CSS3, and JavaScript. <strong>Now what?</strong></p>
+            
+
+            <div>
+                <img src="images/me.jpeg" style="border-radius: 50%; float: left" />
+                <span style="font-size: 24px">
+                    <br />Hi, I'm Matt. Over the past 5 years, 
+                    <strong>I've made over $120k independently creating mobile apps with web technologies.</strong>
+                    Despite what you may have heard, it's a perfectly viable option: mobile device 
+                    performance has skyrocketed, while modern frameworks and tooling have emerged. 
+                    Why invest <i>months</i> learning each native platform?
+                </span>
+            </div>
+
+            
+            <div id="mc_embed_signup">
+            <form action="//netkosoft.us9.list-manage.com/subscribe/post?u=2d5403e2c7b39e6c298e2fa87&amp;id=529401a6e7" method="post" 
+                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <label id="labelMain" for="mce-EMAIL"></label>
+                <p id="mc-detail"><strong>Sign up to be notified when my "PhoneGap Build Fundamentals" video course launches on Pluralsight.com:</strong></p>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" 
+                    name="b_2d5403e2c7b39e6c298e2fa87_529401a6e7" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Get Notified!" name="subscribe" id="mc-embedded-subscribe" 
+                    class="button"></div>
+                </div>
+            </form>
+            </div>
+            
+            
+            
+                <a href="#services" class="btn btn-primary btn-xl page-scroll">Learn More</a>
+            
+        </div>
+    </div>
+</header>
+
+        
+
+        
+
+        
+            <!-- SERVICES -->
+<section id="services">
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Comprehensive Video Course Covering:</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+    
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-code wow bounceIn text-primary"></i>
+                    <h3>One Codebase, Multiple Platforms</h3>
+                    
+                        <p class="text-muted">Create apps for iOS, Android, Windows Phone, and more!</p>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-camera wow bounceIn text-primary"></i>
+                    <h3>Craft Compelling Experiences</h3>
+                    
+                        <p class="text-muted">Leverage the device camera, bluetooth, and more - just like native mobile apps.</p>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-check-square-o wow bounceIn text-primary"></i>
+                    <h3>Simplified App Store Submission</h3>
+                    
+                        <p class="text-muted">Creating keys &amp; certificates, building apps, &amp; submitting for approval.</p>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-bug wow bounceIn text-primary"></i>
+                    <h3>Troubleshooting Tips and Tricks</h3>
+                    
+                        <p class="text-muted">Save Time with Strategies for solving common PhoneGap Build issues &amp; JavaScript debugging.</p>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        
+
+        
+
+        
+
+        
+            <!-- ASIDE -->
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>Want to learn more about PhoneGap apps?</h2>
+            
+                <a href="https://www.netkow.com/categories/phonegap/" class="btn btn-default btn-xl wow tada">Check out Matt&#39;s Blog</a>
+            
+        </div>
+    </div>
+</aside>
+
+        
+
+        
+            <!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                
+                    <h2 class="section-heading">About Matt Netkow</h2>
+                
+                
+                    <hr class="primary">
+                
+                
+                    <p>Matt Netkow has been creating mobile apps using web tech for over 5 years. PhoneGap Build Fundamentals is his first Pluralsight course. He blogs about all things PhoneGap/Cordova at <a href="https://www.netkow.com/categories/phonegap/">netkow.com</a> and tweets as <a href="https://www.twitter.com/dotNetkow">@dotNetkow</a>.</p>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+        
+
+        
+
+        <!-- jQuery -->
+<script src="https://www.phonegapbuildfundamentals.com/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="https://www.phonegapbuildfundamentals.com/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://www.phonegapbuildfundamentals.com/js/jquery.easing.min.js"></script>
+<script src="https://www.phonegapbuildfundamentals.com/js/jquery.fittext.js"></script>
+<script src="https://www.phonegapbuildfundamentals.com/js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="https://www.phonegapbuildfundamentals.com/js/creative.js"></script>
+
+
+        
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-69339142-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+    </body>
+</html>
