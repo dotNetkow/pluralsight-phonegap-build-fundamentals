@@ -1,6 +1,6 @@
 baseURL = "https://www.phonegapbuildfundamentals.com/"
 languageCode = "en-us"
-title = "PhoneGap Build Fundamentals"
+title = "PhoneGap Build Fundamentals Course"
 theme = "hugo-creative-theme"
 googleAnalytics = "UA-69339142-1"
 
@@ -29,17 +29,17 @@ googleAnalytics = "UA-69339142-1"
 
 	# Navigation
 	[params.navigation]
-		brand = "PhoneGap Build Fundamentals"
+		brand = "PhoneGap Build Course"
 
 		[params.navigation.links]
-			services  = "About"
-			contact   = "Contact"
+			services  = "Course Details"
+			contact   = "About Matt"
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Take Your Web Dev Skills to the next level!"
-		subtitle   = "So you've learned HTML5, CSS3, and JavaScript. <strong>Now what?</strong>"
+		slogan     = ""
+		subtitle   = "You've learned HTML5, CSS3, and JavaScript. <strong>Now what?</strong>"
 		buttonText = "Learn More"
 
 	# Service section
@@ -64,7 +64,7 @@ googleAnalytics = "UA-69339142-1"
         [[params.services.list]]
             icon = "fa-bug"
             title = "Troubleshooting Tips and Tricks"
-            description = "Save Time with Strategies for solving common PhoneGap Build issues & JavaScript debugging."
+            description = "Save time with strategies for solving common PhoneGap Build issues & JavaScript debugging."
 
     # Aside section
 	[params.aside]
